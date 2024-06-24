@@ -1,0 +1,139 @@
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+ 
+#bem_Vindo {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#bem_Vindo h1 {
+  margin: 0;
+}
+
+ 
+#Perfil {
+  width: 100%;
+  background-color: #d9d9d9;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+#Perfil h2 {
+  color: #000000;
+  font-size: 30px;
+  margin: 0;
+}
+
+ 
+#dividas {
+  width: 100%;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #d9d9d9;
+  text-align: center;
+}
+
+#dividas h2 {
+  margin: 0;
+}
+
+ 
+#amigos {
+  width: 100%;
+  margin-top: 5%;
+  padding: 20px;   
+  text-align: center;
+    
+}
+
+#amigos h3 {
+  margin: 0;   
+}
+.amigo{
+  margin-top: 8%;   
+}
+ 
+ 
+.circulo {
+  width: 50px;
+  height: 50px;
+  
+  
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+/* Estilos responsivos para dispositivos menores */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  #Perfil {
+    margin-top: 10%;
+  }
+
+  #Perfil h2 {
+    font-size: 24px;
+  }
+
+  #dividas {
+    margin-top: 10%;
+  }
+
+  #amigos {
+    margin-top: 10%;
+  }
+
+  #amigos h3 {
+    font-size: 20px;
+  }
+
+  .circulo {
+    width: 40px;
+    height: 40px;
+    
+  }
+}
+
+/* Estilos responsivos para telas muito pequenas */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* Ajustes adicionais para telas muito pequenas */
+  #Perfil h2 {
+    font-size: 20px;
+  }
+
+  #dividas {
+    margin-top: 15%;
+  }
+
+  #amigos h3 {
+    font-size: 18px;
+  }
+
+  .circulo {
+    width: 30px;
+    height: 30px;
+    
+  }
+  .amigo{
+    margin-top: 25%;
+  }
+}
